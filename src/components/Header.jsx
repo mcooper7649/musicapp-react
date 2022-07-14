@@ -16,8 +16,12 @@ function Header() {
       <CenterMenu />
       {/* buttons */}
       <div className="buttons flex">
-        <button className={buttonStyle}>Sign up</button>
-        <button className={buttonStyle}>Log in</button>
+        <button className={`mr-[35px] hover:bg-[#232A4E] ` + buttonStyle}>
+          Sign up
+        </button>
+        <button className={`mr-[35px] bg-[#232A4E] ` + buttonStyle}>
+          Log in
+        </button>
       </div>
     </div>
   );
