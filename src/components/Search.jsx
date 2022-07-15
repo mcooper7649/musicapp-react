@@ -77,7 +77,7 @@ function Search() {
         />
       </div>
       {/* right side */}
-      <div className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem]">
+      <div className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem] z-[2]">
         {/* Search */}
         <div className="searchbar flex justify-start w-[100%]">
           <input
